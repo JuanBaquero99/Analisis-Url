@@ -1,0 +1,11 @@
+{
+  "name": "analizador-url-unbaq",
+  "version": "1.0.0",
+  "description": "Un paquete para analizar URLs y extraer información de ellas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no tests specified\" && exit 1"
+  },
+  "author": "Tu Nombre",
+  "license": "MIT"
+}
