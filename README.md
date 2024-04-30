@@ -44,6 +44,4 @@ Contribuyendo
 Licencia
 Este paquete está licenciado bajo la Licencia MIT.
 
-Enlaces adicionales
-npm
-GitHub
+
