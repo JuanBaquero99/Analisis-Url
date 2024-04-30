@@ -1,8 +1,7 @@
-# Analisis-Url
 # Analizador URL
 
-![GitHub](https://img.shields.io/github/license/tunombre/analizador-url)
-![npm](https://img.shields.io/npm/v/analizador-url)
+![GitHub](https://img.shields.io/github/license/JuanBaquero99/Analisis-Url)
+![npm](https://img.shields.io/npm/v/analizador-url-unbaq)
 
 Un paquete para Node.js que analiza URLs y extrae información de ellas, como el protocolo, el dominio, la ruta y los parámetros.
 
@@ -11,27 +10,24 @@ Un paquete para Node.js que analiza URLs y extrae información de ellas, como el
 Para instalar el paquete, puedes usar npm o yarn:
 
 ```bash
-npm install analizador-url
-o
+npm install analizador-url-unbaq
 
-bash
-Copy code
-yarn add analizador-url
-Uso
-Para utilizar el analizador de URL, simplemente importa la función analizarURL en tu archivo:
+O
 
-javascript
-Copy code
-const analizarURL = require('analizador-url');
+yarn add analizador-url-unbaq
+```
+## Uso
+Para utilizar el analizador de URL, simplemente importa la función analizarURL-unbaq en tu archivo:
+```
+const analizarURL = require('analizador-url-unbaq');
 
 const url = 'https://www.ejemplo.com/ruta/ejemplo?parametro1=valor1&parametro2=valor2';
 const resultado = analizarURL(url);
 
 console.log(resultado);
-El resultado será un objeto con la información analizada de la URL:
-
-json
-Copy code
+```
+## El resultado será un objeto con la información analizada de la URL:
+```
 {
   "protocolo": "https",
   "dominio": "www.ejemplo.com",
@@ -41,8 +37,13 @@ Copy code
     "parametro2": "valor2"
   }
 }
+```
 Contribuyendo
 ¡Las contribuciones son bienvenidas! Si encuentras algún error o tienes alguna sugerencia de mejora, por favor abre un issue o envía un pull request.
 
 Licencia
 Este paquete está licenciado bajo la Licencia MIT.
+
+Enlaces adicionales
+npm
+GitHub
